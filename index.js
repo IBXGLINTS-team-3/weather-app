@@ -20,6 +20,7 @@
         console.log(data);
     
     
+    document.getElementById("city").innerHTML = `${data.name}`
     document.getElementById('weather').innerHTML=`<div> <h3>${data.weather[0].main}</h3></div>`;
     document.getElementById('temp').innerHTML=`<div> Temperature  : ${data.main.temp}</div>`;
     document.getElementById('speed').innerHTML= `<div> speed winds :${data.wind.speed} m/s</div>`
