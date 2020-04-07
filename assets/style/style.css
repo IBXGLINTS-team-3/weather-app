@@ -3,6 +3,8 @@ body{
 }
 body{
     font-family: 'Playfair Display', serif;
+    background: url(/assets/img/bg.png);
+    background-size: cover;
 }
 nav{
     background-color: whitesmoke;
@@ -50,6 +52,10 @@ nav{
     height: auto;
 }
 .content-weather{
+    margin-top: 50px;
     width: 100%;
-    background-color: white;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 2em;
 }
