@@ -4,7 +4,9 @@ body{
 body{
     font-family: 'Playfair Display', serif;
 }
-
+nav{
+    background-color: whitesmoke;
+}
 .navbar{
     background-color: whitesmoke;
     height: 15vh;
@@ -41,4 +43,8 @@ body{
 }
 .nav-item ul li a{
     color: black;
+}
+.slide-item img{
+    width: 100%;
+    height: auto;
 }
