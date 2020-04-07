@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Weather</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="http://jeffry.in/old-jeffry-in/css/jeffry.in.slider.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <link rel="stylesheet" href="./assets/style/style.css">
 
@@ -14,7 +19,7 @@
 
 <body>
     <!-- navbar -->
-      <nav>
+    <nav>
         <div class="ui two column stackable grid navbar">
             <div class="column logo-nav">
                 <p> <a href="index.html">Weather App</a></p>
@@ -25,25 +30,38 @@
                 </ul>
             </div>
         </div>
-      </nav>
+    </nav>
 
-      <div class="slider slider1">
+
+    <div class="slider slider1">
         <div class="slides">
-          <div class="slide-item item1">
-            <img src="./assets/img/gbr1.jpg">
-          </div>
-          <div class="slide-item item2"> 
-            <img src="./assets/img/gbr2.jpeg">
-          </div>
-          <div class="slide-item item3">
-          </div>
-          <div class="slide-item item4">
-          </div>
+            <div class="slide-item item1">
+                <img src="./assets/img/gbr1.jpg">
+            </div>
+            <div class="slide-item item2">
+                <img src="./assets/img/gbr2.jpeg">
+            </div>
+            <div class="slide-item item3">
+            </div>
+            <div class="slide-item item4">
+            </div>
         </div>
-      </div>
-      <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-      <script src="http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.12.0/javascript<ntic.min.js"></script>
-      <script src="http://cdn.jsdelivr.net/jquery.glide/1.0.6/jquery.glide.min.js"></script>
-        <script src="./slider.js"></script>
-        <script src="./index.js"></script>
+    </div>
+
+
+    <div id="city"></div>
+    <div id="weather"></div>
+    <div id="temp"></div>
+    <div id="speed"></div>
+
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.glide/1.0.6/jquery.glide.min.js"></script>
+    <script src="./slider.js"></script>
+    <script src="./index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+</body>
+
+
 </html>
