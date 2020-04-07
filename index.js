@@ -18,17 +18,12 @@
     })
     .then(data => {
         console.log(data);
-    document.getElementById('weather').innerHTML=`<div> <i class="fa fa-cloud-rain"></i> <h3>${data.weather[0].main}</h3></div>`;
-    //ocument.getElementById('weather').innerHTML=`<div> ${data.main.temp}</div>`;
+    
+    
+    document.getElementById('weather').innerHTML=`<div> <h3>${data.weather[0].main}</h3></div>`;
+    document.getElementById('temp').innerHTML=`<div> Temperature  : ${data.main.temp}</div>`;
+    document.getElementById('speed').innerHTML= `<div> speed winds :${data.wind.speed} m/s</div>`
     })
     
 
-    // const weatherHTMLString = `<div class="col-sm-6 coll-md-4>
-    // weather : ${weather}
-    // <br>
-    // wind : ${wind}
-    // <br>
-    // Clouds : ${clouds}</div>`;
-    // document.getElementById('wheather').innerHTML =weatherHTMLString;
-    // 
-
+    
