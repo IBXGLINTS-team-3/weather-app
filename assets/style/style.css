@@ -6,6 +6,7 @@ body{
 }
 nav{
     background-color: whitesmoke;
+    height:100px;
 }
 .navbar{
     background-color: whitesmoke;
@@ -47,4 +48,8 @@ nav{
 .slide-item img{
     width: 100%;
     height: auto;
+}
+.content-weather{
+    width: 100%;
+    background-color: white;
 }
